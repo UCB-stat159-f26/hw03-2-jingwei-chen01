@@ -1,0 +1,15 @@
+Package: tennisCareer
+Title: Retrieve and Visualize Tennis Career Matches
+Version: 0.0.0.9000
+Authors@R: person("Jingwei", "Chen", role = "aut")
+Description: Retrieve tennis career match records from Tennis Abstract,
+    calculate player and opponent ages, and visualize age differences
+    by match outcome.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    ggplot2,
+    jsonlite
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
